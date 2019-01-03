@@ -1,0 +1,25 @@
+[2018-12-25 09:55:29,880 +0800] 268603f5 Username - AUTH FAILURE FROM 123.113.109.92 user-not-found
+[2018-12-25 10:00:06,545 +0800] 06817fdc banglongjin a/1000005 LOGIN FROM 123.113.109.92
+[2018-12-25 10:00:06,696 +0800] 06817fdc banglongjin a/1000005 git-upload-pack./Codingtask_Question.git 4ms 2ms 1
+[2018-12-25 10:00:06,776 +0800] 06817fdc banglongjin a/1000005 LOGOUT
+[2018-12-25 10:01:22,009 +0800] a61d13b6 banglongjin a/1000005 LOGIN FROM 123.113.109.92
+[2018-12-25 10:01:22,157 +0800] a61d13b6 banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 3ms 1ms 1
+[2018-12-25 10:01:22,241 +0800] a61d13b6 banglongjin a/1000005 LOGOUT
+[2018-12-25 10:09:21,540 +0800] c626070f banglongjin a/1000005 LOGIN FROM 123.113.109.92
+[2018-12-25 10:09:21,678 +0800] c626070f banglongjin a/1000005 git-upload-pack./Codingtask_Question.git 3ms 1ms 1
+[2018-12-25 10:09:21,757 +0800] c626070f banglongjin a/1000005 LOGOUT
+[2018-12-25 10:09:38,611 +0800] 66171b9d banglongjin a/1000005 LOGIN FROM 123.113.109.92
+[2018-12-25 10:09:38,757 +0800] 66171b9d banglongjin a/1000005 git-upload-pack./Codingtask_Question.git 2ms 2ms 1
+[2018-12-25 10:09:38,836 +0800] 66171b9d banglongjin a/1000005 LOGOUT
+[2018-12-25 10:10:16,219 +0800] 8647afa4 banglongjin a/1000005 LOGIN FROM 123.113.109.92
+[2018-12-25 10:10:16,368 +0800] 8647afa4 banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 4ms 1ms 1
+[2018-12-25 10:10:16,449 +0800] 8647afa4 banglongjin a/1000005 LOGOUT
+[2018-12-25 10:17:54,021 +0800] 26384334 banglongjin a/1000005 LOGIN FROM 123.113.109.92
+[2018-12-25 10:17:54,168 +0800] 26384334 banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 3ms 1ms 1
+[2018-12-25 10:17:54,248 +0800] 26384334 banglongjin a/1000005 LOGOUT
+[2018-12-25 10:41:12,684 +0800] 4629b7e8 banglongjin a/1000005 LOGIN FROM 123.113.109.92
+[2018-12-25 10:41:12,827 +0800] 4629b7e8 banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 8ms 1ms 1
+[2018-12-25 10:41:12,901 +0800] 4629b7e8 banglongjin a/1000005 LOGOUT
+[2018-12-25 10:41:21,665 +0800] e6f54b8c banglongjin a/1000005 LOGIN FROM 123.113.109.92
+[2018-12-25 10:41:21,807 +0800] e6f54b8c banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 3ms 1ms 1
+[2018-12-25 10:41:21,887 +0800] e6f54b8c banglongjin a/1000005 LOGOUT

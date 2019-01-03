@@ -1,0 +1,3 @@
+12-14 22:43:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SCHEMA_VERSION" not found; SQL statement:
+SELECT T.version_nbr,T.singleton FROM schema_version T WHERE T.singleton=? [42102-176]
