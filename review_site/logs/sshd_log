@@ -1,25 +1,85 @@
-[2018-12-25 09:55:29,880 +0800] 268603f5 Username - AUTH FAILURE FROM 123.113.109.92 user-not-found
-[2018-12-25 10:00:06,545 +0800] 06817fdc banglongjin a/1000005 LOGIN FROM 123.113.109.92
-[2018-12-25 10:00:06,696 +0800] 06817fdc banglongjin a/1000005 git-upload-pack./Codingtask_Question.git 4ms 2ms 1
-[2018-12-25 10:00:06,776 +0800] 06817fdc banglongjin a/1000005 LOGOUT
-[2018-12-25 10:01:22,009 +0800] a61d13b6 banglongjin a/1000005 LOGIN FROM 123.113.109.92
-[2018-12-25 10:01:22,157 +0800] a61d13b6 banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 3ms 1ms 1
-[2018-12-25 10:01:22,241 +0800] a61d13b6 banglongjin a/1000005 LOGOUT
-[2018-12-25 10:09:21,540 +0800] c626070f banglongjin a/1000005 LOGIN FROM 123.113.109.92
-[2018-12-25 10:09:21,678 +0800] c626070f banglongjin a/1000005 git-upload-pack./Codingtask_Question.git 3ms 1ms 1
-[2018-12-25 10:09:21,757 +0800] c626070f banglongjin a/1000005 LOGOUT
-[2018-12-25 10:09:38,611 +0800] 66171b9d banglongjin a/1000005 LOGIN FROM 123.113.109.92
-[2018-12-25 10:09:38,757 +0800] 66171b9d banglongjin a/1000005 git-upload-pack./Codingtask_Question.git 2ms 2ms 1
-[2018-12-25 10:09:38,836 +0800] 66171b9d banglongjin a/1000005 LOGOUT
-[2018-12-25 10:10:16,219 +0800] 8647afa4 banglongjin a/1000005 LOGIN FROM 123.113.109.92
-[2018-12-25 10:10:16,368 +0800] 8647afa4 banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 4ms 1ms 1
-[2018-12-25 10:10:16,449 +0800] 8647afa4 banglongjin a/1000005 LOGOUT
-[2018-12-25 10:17:54,021 +0800] 26384334 banglongjin a/1000005 LOGIN FROM 123.113.109.92
-[2018-12-25 10:17:54,168 +0800] 26384334 banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 3ms 1ms 1
-[2018-12-25 10:17:54,248 +0800] 26384334 banglongjin a/1000005 LOGOUT
-[2018-12-25 10:41:12,684 +0800] 4629b7e8 banglongjin a/1000005 LOGIN FROM 123.113.109.92
-[2018-12-25 10:41:12,827 +0800] 4629b7e8 banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 8ms 1ms 1
-[2018-12-25 10:41:12,901 +0800] 4629b7e8 banglongjin a/1000005 LOGOUT
-[2018-12-25 10:41:21,665 +0800] e6f54b8c banglongjin a/1000005 LOGIN FROM 123.113.109.92
-[2018-12-25 10:41:21,807 +0800] e6f54b8c banglongjin a/1000005 git-receive-pack./Codingtask_Question.git 3ms 1ms 1
-[2018-12-25 10:41:21,887 +0800] e6f54b8c banglongjin a/1000005 LOGOUT
+[2019-01-11 13:48:23,979 +0800] e9bb8cf8 rayyu a/1000003 LOGIN FROM 58.246.96.238
+[2019-01-11 13:48:24,400 +0800] e9bb8cf8 rayyu a/1000003 git-upload-pack./Codingtask_Question.git 40ms 200ms 0
+[2019-01-11 13:48:24,456 +0800] e9bb8cf8 rayyu a/1000003 LOGOUT
+[2019-01-11 13:49:11,385 +0800] 69f79ccb rayyu a/1000003 LOGIN FROM 58.246.96.238
+[2019-01-11 13:49:11,789 +0800] 69f79ccb rayyu a/1000003 git-upload-pack./Codingtask_Question.git 5ms 273ms 0 git/1.9.1
+[2019-01-11 13:49:12,001 +0800] 69f79ccb rayyu a/1000003 LOGOUT
+[2019-01-11 17:38:18,720 +0800] a95594b1 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 17:38:19,374 +0800] a95594b1 leomo a/1000001 git-receive-pack./Codingtask_Question.git 6ms 622ms 0 git/1.9.1
+[2019-01-11 17:38:19,387 +0800] a95594b1 leomo a/1000001 LOGOUT
+[2019-01-11 17:40:33,859 +0800] 89b3f04d leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 17:40:33,970 +0800] 89b3f04d leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 83ms 0 git/1.9.1
+[2019-01-11 17:40:33,982 +0800] 89b3f04d leomo a/1000001 LOGOUT
+[2019-01-11 17:42:19,515 +0800] 49d1785e leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 17:42:19,633 +0800] 49d1785e leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 88ms 0 git/1.9.1
+[2019-01-11 17:42:19,646 +0800] 49d1785e leomo a/1000001 LOGOUT
+[2019-01-11 18:16:40,067 +0800] f7487668 leomonan a/1000000 LOGIN FROM 113.110.235.143
+[2019-01-11 18:16:40,876 +0800] f7487668 leomonan a/1000000 LOGOUT
+[2019-01-11 18:16:40,880 +0800] f7487668 leomonan a/1000000 git-receive-pack./Codingtask_Question.git 36ms 632ms killed git/1.9.1
+[2019-01-11 18:17:23,626 +0800] 5765c2f6 leomonan - AUTH FAILURE FROM 113.110.235.143 no-matching-key
+[2019-01-11 18:17:59,945 +0800] b7667e04 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:18:00,248 +0800] b7667e04 leomo a/1000001 git-receive-pack./Codingtask_Question.git 11ms 257ms 0 git/1.9.1
+[2019-01-11 18:18:00,305 +0800] b7667e04 leomo a/1000001 LOGOUT
+[2019-01-11 18:19:10,053 +0800] b77d1e9c leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:19:10,384 +0800] b77d1e9c leomo a/1000001 git-receive-pack./Codingtask_Question.git 10ms 288ms 0 git/1.9.1
+[2019-01-11 18:19:10,399 +0800] b77d1e9c leomo a/1000001 LOGOUT
+[2019-01-11 18:19:30,759 +0800] b7b8be8b leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:19:30,889 +0800] b7b8be8b leomo a/1000001 git-receive-pack./Codingtask_Question.git 4ms 95ms 0 git/1.9.1
+[2019-01-11 18:19:30,941 +0800] b7b8be8b leomo a/1000001 LOGOUT
+[2019-01-11 18:20:18,978 +0800] d7a9b248 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:20:19,356 +0800] d7a9b248 leomo a/1000001 git-receive-pack./Codingtask_Question.git 7ms 343ms 0 git/1.9.1
+[2019-01-11 18:20:19,403 +0800] d7a9b248 leomo a/1000001 LOGOUT
+[2019-01-11 18:22:24,332 +0800] 57f06272 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:22:25,043 +0800] 57f06272 leomo a/1000001 git-receive-pack./Codingtask_Question.git 4ms 677ms 0 git/1.9.1
+[2019-01-11 18:22:25,100 +0800] 57f06272 leomo a/1000001 LOGOUT
+[2019-01-11 18:22:30,354 +0800] b74c3eb1 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:22:30,422 +0800] b74c3eb1 leomo a/1000001 git-receive-pack./Codingtask_Question.git 6ms 35ms 0
+[2019-01-11 18:22:30,472 +0800] b74c3eb1 leomo a/1000001 LOGOUT
+[2019-01-11 18:22:34,623 +0800] 175d0a63 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:22:34,760 +0800] 175d0a63 leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 90ms 0 git/1.9.1
+[2019-01-11 18:22:34,812 +0800] 175d0a63 leomo a/1000001 LOGOUT
+[2019-01-11 18:23:08,234 +0800] 771806c5 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:23:08,302 +0800] 771806c5 leomo a/1000001 git-receive-pack./Codingtask_Question.git 5ms 38ms 0
+[2019-01-11 18:23:08,355 +0800] 771806c5 leomo a/1000001 LOGOUT
+[2019-01-11 18:23:10,758 +0800] d708d279 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:23:10,860 +0800] d708d279 leomo a/1000001 git-receive-pack./Codingtask_Question.git 2ms 75ms 0 git/1.9.1
+[2019-01-11 18:23:10,913 +0800] d708d279 leomo a/1000001 LOGOUT
+[2019-01-11 18:23:13,147 +0800] 37292ee9 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:23:13,209 +0800] 37292ee9 leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 33ms 0
+[2019-01-11 18:23:13,276 +0800] 37292ee9 leomo a/1000001 LOGOUT
+[2019-01-11 18:26:03,392 +0800] 37db6e29 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:26:03,520 +0800] 37db6e29 leomo a/1000001 git-receive-pack./Codingtask_Question.git 4ms 88ms 0 git/1.9.1
+[2019-01-11 18:26:03,578 +0800] 37db6e29 leomo a/1000001 LOGOUT
+[2019-01-11 18:26:12,535 +0800] 17b3ca06 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:26:12,620 +0800] 17b3ca06 leomo a/1000001 git-receive-pack./Codingtask_Question.git 4ms 51ms 0 git/1.9.1
+[2019-01-11 18:26:12,670 +0800] 17b3ca06 leomo a/1000001 LOGOUT
+[2019-01-11 18:26:30,330 +0800] d793f265 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:26:30,456 +0800] d793f265 leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 85ms 0 git/1.9.1
+[2019-01-11 18:26:30,517 +0800] d793f265 leomo a/1000001 LOGOUT
+[2019-01-11 18:36:18,428 +0800] dcb557ff leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:36:18,503 +0800] dcb557ff leomo a/1000001 git-receive-pack./Codingtask_Question.git 9ms 33ms 0
+[2019-01-11 18:36:18,564 +0800] dcb557ff leomo a/1000001 LOGOUT
+[2019-01-11 18:36:23,600 +0800] bcd66322 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:36:23,711 +0800] bcd66322 leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 76ms 0 git/1.9.1
+[2019-01-11 18:36:23,768 +0800] bcd66322 leomo a/1000001 LOGOUT
+[2019-01-11 18:36:28,418 +0800] 9cf27fdc leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:36:28,512 +0800] 9cf27fdc leomo a/1000001 git-receive-pack./Codingtask_Question.git 2ms 56ms 0 git/1.9.1
+[2019-01-11 18:36:28,567 +0800] 9cf27fdc leomo a/1000001 LOGOUT
+[2019-01-11 18:36:35,509 +0800] 5c272759 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:36:35,612 +0800] 5c272759 leomo a/1000001 git-receive-pack./Codingtask_Question.git 7ms 61ms 0 git/1.9.1
+[2019-01-11 18:36:35,681 +0800] 5c272759 leomo a/1000001 LOGOUT
+[2019-01-11 18:38:11,291 +0800] 1c39af83 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:38:11,393 +0800] 1c39af83 leomo a/1000001 git-receive-pack./Codingtask_Question.git 2ms 68ms 0 git/1.9.1
+[2019-01-11 18:38:11,441 +0800] 1c39af83 leomo a/1000001 LOGOUT
+[2019-01-11 18:38:14,738 +0800] dc19d726 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:38:15,069 +0800] dc19d726 leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 162ms 0
+[2019-01-11 18:38:15,250 +0800] dc19d726 leomo a/1000001 LOGOUT
+[2019-01-11 18:43:39,030 +0800] dc6477a2 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:43:39,238 +0800] dc6477a2 leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 169ms 0 git/2.17.1.windows.2
+[2019-01-11 18:43:39,255 +0800] dc6477a2 leomo a/1000001 LOGOUT
+[2019-01-11 18:48:17,421 +0800] 9c56ffbb leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:48:17,617 +0800] 9c56ffbb leomo a/1000001 git-receive-pack./Codingtask_Question.git 3ms 150ms 0 git/2.17.1.windows.2
+[2019-01-11 18:48:17,631 +0800] 9c56ffbb leomo a/1000001 LOGOUT
+[2019-01-11 18:54:17,397 +0800] 5cbba726 leomo a/1000001 LOGIN FROM 113.110.235.143
+[2019-01-11 18:54:17,621 +0800] 5cbba726 leomo a/1000001 git-receive-pack./Codingtask_Question.git 2ms 181ms 0 git/2.17.1.windows.2
+[2019-01-11 18:54:17,647 +0800] 5cbba726 leomo a/1000001 LOGOUT

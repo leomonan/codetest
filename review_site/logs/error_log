@@ -1,23 +1,111 @@
-[2019-01-04 13:56:17,387] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
-[2019-01-04 13:56:17,528] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@1ddc8fc{HTTP/1.1,[http/1.1]}{0.0.0.0:8089}
-[2019-01-04 13:56:17,528] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
-[2019-01-04 13:56:17,535] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@50b4e7b2{/,null,UNAVAILABLE}
-[2019-01-04 13:56:17,601] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
-[2019-01-04 14:09:52,732] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
-[2019-01-04 14:10:42,004] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
-[2019-01-04 14:10:42,005] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
-[2019-01-04 14:10:42,011] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
-[2019-01-04 14:10:42,012] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
-[2019-01-04 14:10:44,121] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @65654ms to org.eclipse.jetty.util.log.Slf4jLog
-[2019-01-04 14:10:44,364] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 122m
-[2019-01-04 14:10:44,411] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/git/repositories/review_site/plugins
-[2019-01-04 14:10:44,863] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
-[2019-01-04 14:10:44,939] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit SSHD-CORE-2.0.0 on *:29418
-[2019-01-04 14:10:44,945] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_191-8u191-b12-0ubuntu0.16.04.1-b12
-[2019-01-04 14:10:45,047] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
-[2019-01-04 14:10:45,047] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
-[2019-01-04 14:10:45,065] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
-[2019-01-04 14:10:46,093] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@c478e4e{/,null,AVAILABLE}
-[2019-01-04 14:10:46,135] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@53dbe7b2{HTTP/1.1,[http/1.1]}{0.0.0.0:8089}
-[2019-01-04 14:10:46,136] [main] INFO  org.eclipse.jetty.server.Server : Started @67671ms
-[2019-01-04 14:10:46,138] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 2.16.1 ready
+[2019-01-11 13:32:38,230] [HTTP-70] ERROR com.google.gerrit.httpd.auth.openid.OpenIdServiceImpl : Cannot discover OpenID http://rayyu
+org.openid4java.discovery.yadis.YadisException: 0x704: I/O transport error: rayyu: Name or service not known
+	at org.openid4java.discovery.yadis.YadisResolver.retrieveXrdsLocation(YadisResolver.java:478)
+	at org.openid4java.discovery.yadis.YadisResolver.discover(YadisResolver.java:248)
+	at org.openid4java.discovery.yadis.YadisResolver.discover(YadisResolver.java:232)
+	at org.openid4java.discovery.yadis.YadisResolver.discover(YadisResolver.java:166)
+	at org.openid4java.discovery.Discovery.discover(Discovery.java:147)
+	at org.openid4java.discovery.Discovery.discover(Discovery.java:129)
+	at org.openid4java.consumer.ConsumerManager.discover(ConsumerManager.java:538)
+	at com.google.gerrit.httpd.auth.openid.OpenIdServiceImpl.init(OpenIdServiceImpl.java:524)
+	at com.google.gerrit.httpd.auth.openid.OpenIdServiceImpl.discover(OpenIdServiceImpl.java:145)
+	at com.google.gerrit.httpd.auth.openid.LoginForm.discover(LoginForm.java:196)
+	at com.google.gerrit.httpd.auth.openid.LoginForm.doPost(LoginForm.java:168)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at com.google.inject.servlet.ServletDefinition.doServiceImpl(ServletDefinition.java:290)
+	at com.google.inject.servlet.ServletDefinition.doService(ServletDefinition.java:280)
+	at com.google.inject.servlet.ServletDefinition.service(ServletDefinition.java:184)
+	at com.google.inject.servlet.ManagedServletPipeline.service(ManagedServletPipeline.java:89)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:85)
+	at com.google.gerrit.httpd.raw.StaticModule$PolyGerritFilter.doFilter(StaticModule.java:485)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.GetUserFilter.doFilter(GetUserFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.UniversalWebLoginFilter.doFilter(UniversalWebLoginFilter.java:74)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.RunAsFilter.doFilter(RunAsFilter.java:121)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.GwtCacheControlFilter.doFilter(GwtCacheControlFilter.java:72)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.AllRequestFilter$FilterProxy$1.doFilter(AllRequestFilter.java:133)
+	at com.google.gerrit.httpd.AllRequestFilter$FilterProxy.doFilter(AllRequestFilter.java:135)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.RequestMetricsFilter.doFilter(RequestMetricsFilter.java:57)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.gerrit.httpd.RequestContextFilter.doFilter(RequestContextFilter.java:69)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:82)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:121)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:133)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.RequestLogHandler.handle(RequestLogHandler.java:56)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:503)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: rayyu: Name or service not known
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openid4java.util.HttpCache.head(HttpCache.java:335)
+	at org.openid4java.discovery.yadis.YadisResolver.retrieveXrdsLocation(YadisResolver.java:400)
+	... 64 more
+[2019-01-11 18:10:26,853] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2019-01-11 18:10:26,898] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@53dbe7b2{HTTP/1.1,[http/1.1]}{0.0.0.0:8089}
+[2019-01-11 18:10:26,901] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2019-01-11 18:10:26,913] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@c478e4e{/,null,UNAVAILABLE}
+[2019-01-11 18:10:26,925] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2019-01-11 18:10:47,026] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2019-01-11 18:10:48,384] [main] WARN  com.google.gerrit.sshd.SshDaemon : Cannot format SSHD host key [EdDSA]: invalid key type
+[2019-01-11 18:10:48,394] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2019-01-11 18:10:48,397] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2019-01-11 18:10:48,398] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2019-01-11 18:10:50,634] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @17745ms to org.eclipse.jetty.util.log.Slf4jLog
+[2019-01-11 18:10:50,848] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 122m
+[2019-01-11 18:10:50,876] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/git/repositories/review_site/plugins
+[2019-01-11 18:10:51,400] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2019-01-11 18:10:51,474] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit SSHD-CORE-2.0.0 on *:29418
+[2019-01-11 18:10:51,487] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_191-8u191-b12-0ubuntu0.16.04.1-b12
+[2019-01-11 18:10:51,606] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2019-01-11 18:10:51,606] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2019-01-11 18:10:51,617] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 600000ms
+[2019-01-11 18:10:52,378] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@50b624da{/,null,AVAILABLE}
+[2019-01-11 18:10:52,408] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@71b7e9c8{HTTP/1.1,[http/1.1]}{0.0.0.0:8089}
+[2019-01-11 18:10:52,410] [main] INFO  org.eclipse.jetty.server.Server : Started @19528ms
+[2019-01-11 18:10:52,412] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 2.16.1 ready
